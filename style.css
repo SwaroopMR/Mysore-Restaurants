@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color: black;
+    background-image: url(images/mysore\ traditional\ food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    color: white;
+    text-align: center;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+footer {
+    height: 100px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 19px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: rgb(0, 4, 255);
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
